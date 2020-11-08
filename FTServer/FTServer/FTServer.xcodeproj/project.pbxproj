@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC62FEEA254201180003A6E0 /* FTServerProgram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC62FEE9254201180003A6E0 /* FTServerProgram.cpp */; };
+		DC62FEF52542140F0003A6E0 /* FTServe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC62FEF32542140F0003A6E0 /* FTServe.cpp */; };
+		DC62FEFA25423FC10003A6E0 /* FtConnectedClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC62FEF825423FC10003A6E0 /* FtConnectedClient.cpp */; };
+		DCDE6D86254679160060EC04 /* libPRSLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DCDE6D85254679160060EC04 /* libPRSLib.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DC62FEE4254201180003A6E0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DC62FEE6254201180003A6E0 /* FTServer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FTServer; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC62FEE9254201180003A6E0 /* FTServerProgram.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FTServerProgram.cpp; sourceTree = "<group>"; };
+		DC62FEF32542140F0003A6E0 /* FTServe.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FTServe.cpp; sourceTree = "<group>"; };
+		DC62FEF42542140F0003A6E0 /* FTServe.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FTServe.hpp; sourceTree = "<group>"; };
+		DC62FEF825423FC10003A6E0 /* FtConnectedClient.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FtConnectedClient.cpp; sourceTree = "<group>"; };
+		DC62FEF925423FC10003A6E0 /* FtConnectedClient.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FtConnectedClient.hpp; sourceTree = "<group>"; };
+		DCDE6D85254679160060EC04 /* libPRSLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libPRSLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC62FEE3254201180003A6E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCDE6D86254679160060EC04 /* libPRSLib.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC62FEDD254201180003A6E0 = {
+			isa = PBXGroup;
+			children = (
+				DC62FEE8254201180003A6E0 /* FTServer */,
+				DC62FEE7254201180003A6E0 /* Products */,
+				DCDE6D84254679160060EC04 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DC62FEE7254201180003A6E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC62FEE6254201180003A6E0 /* FTServer */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC62FEE8254201180003A6E0 /* FTServer */ = {
+			isa = PBXGroup;
+			children = (
+				DC62FEF32542140F0003A6E0 /* FTServe.cpp */,
+				DC62FEF42542140F0003A6E0 /* FTServe.hpp */,
+				DC62FEE9254201180003A6E0 /* FTServerProgram.cpp */,
+				DC62FEF825423FC10003A6E0 /* FtConnectedClient.cpp */,
+				DC62FEF925423FC10003A6E0 /* FtConnectedClient.hpp */,
+			);
+			path = FTServer;
+			sourceTree = "<group>";
+		};
+		DCDE6D84254679160060EC04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCDE6D85254679160060EC04 /* libPRSLib.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC62FEE5254201180003A6E0 /* FTServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC62FEED254201180003A6E0 /* Build configuration list for PBXNativeTarget "FTServer" */;
+			buildPhases = (
+				DC62FEE2254201180003A6E0 /* Sources */,
+				DC62FEE3254201180003A6E0 /* Frameworks */,
+				DC62FEE4254201180003A6E0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FTServer;
+			productName = FTServer;
+			productReference = DC62FEE6254201180003A6E0 /* FTServer */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC62FEDE254201180003A6E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					DC62FEE5254201180003A6E0 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = DC62FEE1254201180003A6E0 /* Build configuration list for PBXProject "FTServer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC62FEDD254201180003A6E0;
+			productRefGroup = DC62FEE7254201180003A6E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC62FEE5254201180003A6E0 /* FTServer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC62FEE2254201180003A6E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC62FEF52542140F0003A6E0 /* FTServe.cpp in Sources */,
+				DC62FEFA25423FC10003A6E0 /* FtConnectedClient.cpp in Sources */,
+				DC62FEEA254201180003A6E0 /* FTServerProgram.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DC62FEEB254201180003A6E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DC62FEEC254201180003A6E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DC62FEEE254201180003A6E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q2W38N4LKZ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../PRSLib";
+				oi = "";
+			};
+			name = Debug;
+		};
+		DC62FEEF254201180003A6E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q2W38N4LKZ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../PRSLib";
+				oi = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC62FEE1254201180003A6E0 /* Build configuration list for PBXProject "FTServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC62FEEB254201180003A6E0 /* Debug */,
+				DC62FEEC254201180003A6E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC62FEED254201180003A6E0 /* Build configuration list for PBXNativeTarget "FTServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC62FEEE254201180003A6E0 /* Debug */,
+				DC62FEEF254201180003A6E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC62FEDE254201180003A6E0 /* Project object */;
+}
